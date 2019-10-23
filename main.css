@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li, img {
+  max-width: 500px;
+}
+
+.innerContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.outerContainer {
+  padding: 0 25px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}

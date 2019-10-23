@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>GitHub API Assignment</title>
+	<link rel="stylesheet" href="main.css"/>
+</head>
+
+<body>
+
+  <section class="outerContainer">
+
+  	<h1>Github API Assignment:<br>Username Finder</h1>
+
+	  <main role="main">
+
+		  <section class="innerContainer">
+			  <form id="js-search-form">
+				  <h2>Search GitHub Users</h2>
+				  <input type="text" id="js-username" name="UsernameId" placeholder="Username" required/>
+          <input id="js-submit-button" class="submitButton" type="submit" value="Submit"/>
+        </form>
+        <p id="js-error-message" class="errorMessage"></p>
+      </section>
+
+      <section id="js-search-results" class="searchResults hidden">
+        <h3>Username: <span id="js-username"></span></h3>
+        <h3>Repos</h3>
+        <ul id="js-repos-list">
+        </ul>
+      </section>
+
+    </main>
+
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
