@@ -20,16 +20,15 @@
 		  <section class="innerContainer">
 			  <form id="js-search-form">
 				  <h2>Search GitHub Users</h2>
-				  <input type="text" id="js-username" name="UsernameId" placeholder="Username" required/>
+				  <input type="text" id="js-username-id" name="UsernameId" placeholder="Username" required/>
           <input id="js-submit-button" class="submitButton" type="submit" value="Submit"/>
         </form>
         <p id="js-error-message" class="errorMessage"></p>
       </section>
 
       <section id="js-search-results" class="searchResults hidden">
-        <h3>Username: <span id="js-username"></span></h3>
-        <h3>Repos</h3>
-        <ul id="js-repos-list">
+        <h3 class="hidden"><span id="js-username"></span>'s Repos</h3>
+        <ul id="js-repos-list" style="list-style-type:none">
         </ul>
       </section>
 
