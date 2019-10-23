@@ -1,9 +1,5 @@
 'use strict';
 
-/*const apiKey = '7a2b390df078d87eec3605ef6eec1a666e59d356';*/
-
-const searchURL = `https://api.github.com/users/${username}/repos`;
-
 function getUserInfo(username) {
 
   const searchURL = `https://api.github.com/users/${username}/repos`;
